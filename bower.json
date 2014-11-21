@@ -1,0 +1,22 @@
+{
+  "name": "honda",
+  "version": "0.0.0",
+  "authors": [
+    "Brandon Morrison <brandon@brandonmorrison.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.11",
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.3",
+    "topojson": "~1.6.18"
+  }
+}
