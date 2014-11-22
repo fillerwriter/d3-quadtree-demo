@@ -35,7 +35,6 @@ d3.json("json/data.json", function(error, geoData) {
   // Find the nodes within the specified rectangle.
   function search(quadtree, x0, y0, x3, y3) {
     var validData = [];
-    //svgDealer.each(function(d) {d.selected = false; });
     quadtree.visit(function(node, x1, y1, x2, y2) {
       var p = node.point;
       if (p) {
